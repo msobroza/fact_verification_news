@@ -95,7 +95,7 @@ class BustProcessor(DataProcessor):
     def get_train_examples(self,data_dir):
         """See base class."""
         result = self._create_examples_df('all_train_df.pkl','en', 0)
-        #result.extend(self._create_examples_df('train_df.csv','fr', len(result)-1))
+        result.extend(self._create_examples_df('fever-data-prep/preprocessed/fever_dev.pkl','en', len(result)-1))
         return result
 
     def get_dev_examples(self,data_dir):
