@@ -56,15 +56,18 @@ fact_verification_news_busterai
 |   ├──  	Nov14_01-58-22_StationRTX
 │   |   │   events.out.tfevents.1573693102.StationRTX
 |   ├──   Nov14_02-03-01_StationRTX
-│       │    	events.out.tfevents.1573693381.StationRTX
+│       │   events.out.tfevents.1573693381.StationRTX
 |   ├──   Nov14_02-16-03_StationRTX
-│   |   │    	events.out.tfevents.1573694163.StationRTX
+│   |   │   events.out.tfevents.1573694163.StationRTX
 |   ├──   Nov14_02-21-12_StationRTX
-│   |   │    	events.out.tfevents.1573694472.StationRTX
+│   |   │   events.out.tfevents.1573694472.StationRTX
 |   ├──   Nov14_02-32-08_StationRTX
-│   |   │    	events.out.tfevents.1573695128.StationRTX
+│   |   │   events.out.tfevents.1573695128.StationRTX
 |   ├──   Nov14_02-43-23_StationRTX
-│   |   │    	 	events.out.tfevents.1573695803.StationRTX
+│   |   │   events.out.tfevents.1573695803.StationRTX
+|   ├──   Nov15_00-48-59_StationRTX
+│   |   │   events.out.tfevents.1573775339.StationRTX
+|
 |
 |   run_glue.py              <- main file 
 |   utils_glue_modified.py   <- useful functions to the model
