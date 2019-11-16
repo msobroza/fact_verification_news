@@ -48,23 +48,28 @@ fact_verification_news_busterai
 |   |   test2.tsv
 |   |   train2.tsv
 |   |   val2.tsv
-|   ├── .ipynb_checkpoints        <- checkpoints 
+|   ├── .ipynb_checkpoints     <- checkpoints 
 |   |   LiarPlus Analysis and Preparation checkpoint.ipynb
 |   
-├── runs                        <- cache memory from executions
+├── runs                       <- cache memory from executions
 |   │   
-|   ├── Nov09_22-09-39_Station-TitanX-Xp
-│   |   │   events.out.tfevents.1573333779.Station-TitanX-Xp
-|   ├── Nov09_23-33-23_Station-TitanX-Xp
-│       │   events.out.tfevents.1573338803.Station-TitanX-Xp
-|   ├── Nov10_00-18-01_Station-TitanX-Xp
-│   |   │   events.out.tfevents.1573341481.Station-TitanX-Xp
-├── utils                       <- useful functions and model
-|   │   losses.py
-|   │   metrics.py
-|   │   multilabel_task.py
-|   │   utils.py
-|   │   xlm_for_multilabel.py
+|   ├──  	Nov14_01-58-22_StationRTX
+│   |   │   events.out.tfevents.1573693102.StationRTX
+|   ├──   Nov14_02-03-01_StationRTX
+│       │    	events.out.tfevents.1573693381.StationRTX
+|   ├──   Nov14_02-16-03_StationRTX
+│   |   │    	events.out.tfevents.1573694163.StationRTX
+|   ├──   Nov14_02-21-12_StationRTX
+│   |   │    	events.out.tfevents.1573694472.StationRTX
+|   ├──   Nov14_02-32-08_StationRTX
+│   |   │    	events.out.tfevents.1573695128.StationRTX
+|   ├──   Nov14_02-43-23_StationRTX
+│   |   │    	 	events.out.tfevents.1573695803.StationRTX
+|
+|   run_glue.py              <- main file 
+|   utils_glue_modified.py   <- useful functions to the model
+|   all_train_df.pkl         <- train data 
+
 
 ```
 
@@ -95,17 +100,12 @@ If you do not want to perform evaluation during training, remove  the --evaluate
 In order to compare our results with current SOTA models, we have performed the evaluation on the test set of
 the FEVER dataset.
 
-|SentimentxModel|     Watson    |      ELMo     |     mLSTM     |     NVIDIA Transformer   |   XLM (ours)  | 
-| ------------- | ------------- | ------------- | ------------- |       -------------      | ------------- | 
-|     anger     |     0.498     |     0.614     |     0.548     |           0.771          |     0.763     |
-| anticipation  |       -       |     0.294     |     0.275     |           0.403          |    **0.405**  |
-|    disgust    |     0.331     |     0.662     |     0.576     |           0.764          |     0.760     |
-|      fear     |     0.149     |     0.388     |     0.319     |           0.765          |     0.731     |
-|      joy      |     0.684     |     0.734     |     0.651     |           0.818          |   **0.839**   |
-|    sadness    |     0.359     |     0.531     |     0.491     |           0.691          |     0.691     |
-|   surprise    |       -       |     0.154     |     0.122     |           0.400          |   **0.473**   |
-|     trust     |       -       |     0.181     |     0.168     |           0.271          |   **0.286**   |
-|    Average    |       -       |     0.445     |     0.394     |           0.610          |   **0.619**   |
+|     Model     |    Accuracy(%)   | 
+| ------------- | ------------- |
+|    XLM (ours) |            |
+|     BERT (Large) & BERT (Pointwise + HNM)     |     71.86     |
+| DREAM (Zhong et al., 2019)                    |     76.85     |
+
 
 
 ### References
