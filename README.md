@@ -105,7 +105,7 @@ the FEVER dataset.
 
 |     Model     |    Accuracy(%)   | 
 | ------------- | ------------- |
-|    XLM (ours) |            |
+|    XLM (ours) |    70.02        |
 |     BERT (Large) & BERT (Pointwise + HNM)     |     71.86     |
 | DREAM (Zhong et al., 2019)                    |     76.85     |
 
