@@ -109,7 +109,9 @@ the FEVER dataset.
 |     BERT (Large) & BERT (Pointwise + HNM)     |     71.86     |
 | DREAM (Zhong et al., 2019)                    |     76.85     |
 
+![image1](1.png)
 
+![image2](2.png)
 
 ### References
 
