@@ -68,7 +68,8 @@ fact_verification_news_busterai
 |   ├──   Nov15_00-48-59_StationRTX
 │   |   │   events.out.tfevents.1573775339.StationRTX
 |
-|
+|   1.png                    <- accuracy
+|   2.png                    <- loss
 |   run_glue.py              <- main file 
 |   utils_glue_modified.py   <- useful functions to the model
 |   all_train_df.pkl         <- train data 
