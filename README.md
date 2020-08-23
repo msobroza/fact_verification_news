@@ -1,10 +1,11 @@
-<img src="https://pbs.twimg.com/profile_images/1126981606533672960/H4NiVXXg.jpg" alt="drawing" width="200"/>
-
-## Fact verification on news - BusterAI
+## Fact verification on news
 The goal of this project is to create an IA to check the facts of news sentence based on their evidences.
 
 The evidence text either _supports_ or _refutes_ the claim.
 
+## Authors
+
+_Tales Marra_ and _Max Sobroza_.
 
 ### Requirements
 
